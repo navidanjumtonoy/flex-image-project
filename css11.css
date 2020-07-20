@@ -1,0 +1,60 @@
+html,body{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    box-sizing: border-box;
+    /*margin: 15px;*/
+    
+    /*height: 100%;*/
+    /*flex-direction: row;*/
+    
+   /*align-items: center;*/
+    
+    /*box-sizing: border-box;*/
+}
+
+.flexcontainer>div>img{
+    width: 100%;
+    height: 100%;
+/*   object-fit: cover;*/
+    /*margin: 15px;*/
+    /*justify-content: center;*/
+    /*justify-content: space-between;
+    */
+}
+
+/*.flexcontainer>div>img:hover{
+    width: 100%;
+    height: 100%;-------------------------- thik ager tar width 164% dite hobe----------
+}*/
+
+*.flexcontainer>div>img:hover{
+    object-fit: cover;
+}
+
+
+/*.flexcontainer>div{
+    flex: 1 1 150px;
+}
+*/
+
+.flexcontainer>div{
+    flex: 1 1 150px;
+    
+
+   
+}
+
+
+
+/*.flexcontainer .b {
+    flex: 1 1 150px;
+}
+.flexcontainer .a {
+    flex: 1 1 250px;
+}*/
